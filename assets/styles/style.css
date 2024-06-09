@@ -1,0 +1,25 @@
+body{
+    background-color: orangered;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header{
+    height:100px;
+    width:100%;
+    margin:0px;
+    text-align: center;
+    line-height: 100px;
+}
+nav{background-color: green;}
+
+main{position: relative;
+     padding: 20px;
+     margin-top: 20px;
+    }
+.inico{float: left;}
+ aside{
+    float: left;
+ }
+footer{
+position: relative;
+}
