@@ -1,41 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/assets/styles/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../assets/styles/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
-    <header>
-        <h1>Akira Toriyama</h1>
-      </header>
 
+<body class="bg-primary-subtle">
+  <header>
+  <div class="container-fluid"><h1>Akira Toriyama</h1>
+    <img src="/assets/multimedia/akiradragonball.jpg"  width="200" height="200" class="img-fluid rounded float-start" alt="...">
+    <img src="/assets/multimedia/akiradragonball.jpg"   width="200" height="200" class="img-fluid rounded float-end" alt="...">
+  </div>
+</header>
 
-    <nav>
-        <ul>
-          <li>
-             <a href="/Index.html">Inicio</a>
-          </li>
+  <nav class="navbar bg-dark-subtle">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../Index.html">
+        <img src="/assets/multimedia/logonavbar.png" alt="Logo" width="30" height="24"
+          class="d-inline-block align-text-top" />Inicio</a>
 
-          <li>
-            <a href="/pages/biografia.html">Biografia</a>
-          </li>
+      <a class="navbar-brand" href="biografia.html">
+        <img src="/assets/multimedia/logonavbar.png" alt="Logo" width="30" height="24"
+          class="d-inline-block align-text-top" />Biografia</a>
+
+      <a class="navbar-brand" href="doctorslump.html">
+        <img src="/assets/multimedia/logonavbar.png" alt="Logo" width="30" height="24"
+          class="d-inline-block align-text-top" />Doctor Slump</a>
+
+      <a class="navbar-brand" href="videojuegos.html">
+        <img src="/assets/multimedia/logonavbar.png" alt="Logo" width="30" height="24"
+          class="d-inline-block align-text-top" />Videojuegos</a>
+
+    </div>
+  </nav>
+  <main>
+  <section class="container-fluid float-end">
+    <div class="container-fluid bg-primary-subtle"><h2 class="text-center">Openings</h2>
   
-          
-          <li>
-            <a href="/pages/doctorslump.html">Doctor Slump</a>
-          </li>
-          <li>
-            <a href="/pages/videojuegos.html">Videojuegos</a>
-          </li>
-          
-          
-        </ul>
-      </nav>
+    <!-- Carousel -->
+    <div class="carousel-inner">
+      <!-- Primer Video -->
+      <div class="carousel-item active">
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/9Hbd1QeI1Og?si=QaPHaKimyyFhM98C"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Opening Dragon Ball</h5>
+        </div>
+      </div>
 
-    <footer>
-        <a href="https://www.instagram.com/akira.toriyama/">Instagram de Akira Toriyama</a>
-    </footer>
+      <!-- Segundo Video -->
+      <div class="carousel-item">
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/cie7scVUdQE?si=MQtmKNHpNfSvTXTy"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Opening Dragon Ball Z</h5>
+        </div>
+        </div>
+
+          <!-- Tercer Video -->
+          <div class="carousel-item">
+            <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Oz64k2VNtPY?si=Iact8E7J4KjShRQo"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Opening Dragon Ball Super</h5>
+            </div>
+          </div>
+      </div>
+      <!--Fin de los videos-->
+
+      <!-- Controles -->
+      <button data-mdb-button-init class="carousel-control-prev" type="button" data-mdb-target="#carouselVideoExample"
+        data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button data-mdb-button-init class="carousel-control-next" type="button" data-mdb-target="#carouselVideoExample"
+        data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Fin de los controles-->
+    </div>
+    <h2 class="text-center">Personajes</h2>
+
+
+    <footer class="bg-dark-subtle text-center">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0 b">
+    <h2>Redes Sociales</h2>
+    <section class="mb-4">
+      <!-- Twitter -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="https://x.com/toyotaro_vjump"
+        role="button"
+        >Twitter<i class="fab fa-twitter"></i
+      ></a>
+      <!-- Instagram -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="https://www.instagram.com/akira.toriyama/"
+        role="button"
+        >Instagram<i class="fab fa-instagram"></i
+      ></a>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+</footer> 
+</div>
+</section>
+</main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    
 </body>
+
 </html>
