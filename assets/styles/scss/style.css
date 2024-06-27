@@ -1,0 +1,143 @@
+@charset "UTF-8";
+body {
+  background-image: url(/assets/multimedia/fondoweb.jpg);
+  background-size: contain;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  line-height: 100px;
+}
+
+h2 {
+  font-family: Arial;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+nav {
+  background-color: green;
+}
+
+.d-inline-block {
+  text-align: top;
+  width: 30px;
+  height: 24px;
+}
+
+.titulovideojuego {
+  background-color: brown;
+  text-align: center;
+  justify-content: center;
+}
+
+.container-fluid-Videojuegos {
+  background-color: rgba(255, 153, 0, 0.87);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-fluid-Videojuegos .dragonquest {
+  width: auto;
+  height: 300px;
+  border: 1px solid black;
+}
+.container-fluid-Videojuegos .chronotrigger {
+  width: auto;
+  height: 300px;
+  border: 1px solid black;
+}
+.container-fluid-Videojuegos .bluedragon {
+  width: auto;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.container-fluid-dragonball {
+  background-color: rgba(255, 153, 0, 0.87);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-fluid-inicio {
+  background-color: rgba(255, 153, 0, 0.87);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-fluid-doctorslump {
+  background-color: rgba(255, 153, 0, 0.87);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  position: relative;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row {
+  text-align: center;
+  justify-content: space-between;
+}
+
+.img-fluid {
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+}
+
+.slide {margin-top: 10px;}
+
+.slide img{height: 90vh;}
+
+footer {
+  display: grid;
+  text-align: center;
+  position: end;
+  float: left;
+  justify-content: center;
+}
+
+/*Media Queries*/
+/*pantalla pequeña*/
+@media (max-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+  .img-fluid {
+    height: 100px;
+    width: 100px;
+  }
+}
+/*pantalla mediana */
+@media (min-width: 576px) and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+/* Pantalla grande */
+@media (min-width: 768px) and (max-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

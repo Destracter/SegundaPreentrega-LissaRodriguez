@@ -1,12 +1,15 @@
 {
   "name": "proyecto-desarollo-web",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["Akira Toriyama","Biografia","Dragon Ball Z","Doctor Slump","Dragon Quest","Blue Dragon","Chrono Trigger"],
   "author": "Emiliano Lissa Rodriguez",
   "license": "ISC",
-  "description": ""
+  "description": "Obras Artisticas y Biografia de Akira Toriyama como sus mangas:Dragon Ball,Doctor Slump o sus juegos como:Dragon Quest,Chrono Trigger y Blue Dragon",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
 }

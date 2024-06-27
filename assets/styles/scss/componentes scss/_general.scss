@@ -1,0 +1,29 @@
+$colorfondo: rgba(255, 153, 0, 0.87);
+
+header {
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+  }
+
+body {
+    background-image: url(/assets/multimedia/fondoweb.jpg);
+    background-size:contain
+    }
+
+
+h2 {font-family: Arial;}
+h3 {font-family: Arial, Helvetica, sans-serif;font-size: x-large;}
+p {font-family:Arial, Helvetica, sans-serif;font-size: medium;}
+.row {
+    text-align: center;justify-content: space-between;}
+
+main {
+        position: relative;
+        padding: 20px;
+        margin-top: 20px;
+      }
+      .slide {margin-top: 10px;
+              img{height: 90vh; }}

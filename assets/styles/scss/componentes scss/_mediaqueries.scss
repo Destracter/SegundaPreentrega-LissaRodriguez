@@ -1,0 +1,23 @@
+/*Media Queries*/
+/*pantalla pequeña*/
+@media (max-width: 576px) {
+    body {
+      font-size: 14px;
+    }
+    .img-fluid {
+      height: 100px;
+      width: 100px;
+    }
+  }
+  /*pantalla mediana */
+  @media (min-width: 576px) and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  /* Pantalla grande */
+  @media (min-width: 768px) and (max-width: 1200px) {
+    body {
+      font-size: 18px;
+    }
+    }
