@@ -1,7 +1,10 @@
 footer {
-    display: grid;
+    background-color: $colorfondo;
+    display:grid;
     text-align: center;
     position: end;
-    float: left;
     justify-content: center;
-}
+     .btnista {background-color: #ac2bac;color: black;}
+     .btntw {background-color: #55acee;color: black;}
+    }
+    

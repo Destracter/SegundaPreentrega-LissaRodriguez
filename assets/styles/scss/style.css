@@ -1,9 +1,4 @@
 @charset "UTF-8";
-body {
-  background-image: url(/assets/multimedia/fondoweb.jpg);
-  background-size: contain;
-}
-
 header {
   height: 100px;
   width: 100%;
@@ -12,13 +7,36 @@ header {
   line-height: 100px;
 }
 
+body {
+  background-image: url(/assets/multimedia/fondoweb.jpg);
+  background-size: contain;
+}
+
+.row {
+  text-align: center;
+  justify-content: space-between;
+}
+
+main {
+  position: relative;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+}
+
 h2 {
   font-family: Arial;
+  text-decoration: underline;
 }
 
 h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-large;
+  text-decoration: underline;
 }
 
 p {
@@ -26,8 +44,16 @@ p {
   font-size: medium;
 }
 
+.slide {
+  margin-top: 10px;
+}
+.slide img {
+  height: 90vh;
+}
+
 nav {
   background-color: green;
+  border: 1px solid black;
 }
 
 .d-inline-block {
@@ -36,9 +62,28 @@ nav {
   height: 24px;
 }
 
-.titulovideojuego {
-  background-color: brown;
+.container-fluid-inicio {
+  background-color: rgba(255, 153, 0, 0.87);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-fluid-biografia {
+  background-color: rgba(255, 153, 0, 0.87);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-fluid-dragonball {
+  margin-top: 10px;
+  background-color: rgba(255, 153, 0, 0.87);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -64,22 +109,6 @@ nav {
   border: 1px solid black;
 }
 
-.container-fluid-dragonball {
-  background-color: rgba(255, 153, 0, 0.87);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.container-fluid-inicio {
-  background-color: rgba(255, 153, 0, 0.87);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .container-fluid-doctorslump {
   background-color: rgba(255, 153, 0, 0.87);
   text-align: center;
@@ -88,37 +117,24 @@ nav {
   justify-content: center;
 }
 
-main {
-  position: relative;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-.row {
-  text-align: center;
-  justify-content: space-between;
-}
-
-.img-fluid {
-  width: auto;
-  height: auto;
-  border: 1px solid black;
-}
-
-.slide {margin-top: 10px;}
-
-.slide img{height: 90vh;}
-
 footer {
+  background-color: rgba(255, 153, 0, 0.87);
   display: grid;
   text-align: center;
   position: end;
-  float: left;
   justify-content: center;
+}
+footer .btnista {
+  background-color: #ac2bac;
+  color: black;
+}
+footer .btntw {
+  background-color: #55acee;
+  color: black;
 }
 
 /*Media Queries*/
-/*pantalla pequeña*/
+/*Pantalla pequeña*/
 @media (max-width: 576px) {
   body {
     font-size: 14px;
@@ -128,7 +144,7 @@ footer {
     width: 100px;
   }
 }
-/*pantalla mediana */
+/*Pantalla mediana */
 @media (min-width: 576px) and (max-width: 768px) {
   body {
     font-size: 16px;
